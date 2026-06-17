@@ -6,19 +6,15 @@ import random
 import re
 import sys
 
-#
 # Complete the 'bigSorting' function below.
-#
-# The function is expected to return a STRING_ARRAY.
-# The function accepts STRING_ARRAY unsorted as parameter.
-#
-
 def bigSorting(unsorted):
     unsorted.sort(key=lambda x: (len(x), x))
     return unsorted
     
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    # Si se ejecuta en local, usa 'resultado.txt' de forma automática
+    output_path = os.environ.get('OUTPUT_PATH', 'resultado.txt')
+    fptr = open(output_path, 'w')
 
     n = int(input().strip())
 
@@ -34,3 +30,4 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
+    print(f"\n¡Proceso terminado con éxito! El resultado se guardó en: {output_path}")
