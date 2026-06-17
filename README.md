@@ -20,7 +20,7 @@ Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorn
    * Abre Visual Studio Code.
    * Presiona `Ctrl + Shift + P` (o `Cmd + Shift + P` en Mac) para abrir la paleta de comandos.
    * Escribe **Git: Clone** y presiona Enter.
-   * Pega el enlace de este repositorio: `https://github.com` y selecciona la carpeta en tu computadora donde deseas guardarlo.
+   * Pega el enlace de este repositorio: `https://github.com/LauraBernal18/ParcialADA.git` y selecciona la carpeta en tu computadora donde deseas guardarlo.
 
 2. **Abrir el proyecto:**
    * Cuando aparezca la notificación en la esquina inferior derecha, haz clic en **Open** (Abrir) para cargar el espacio de trabajo.
