@@ -17,8 +17,8 @@ Para correr el script en tu computadora, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <LINK_DE_TU_REPOSITORIO>
-   cd <NOMBRE_DE_TU_CARPETA>
+   git clone <https://github.com/LauraBernal18/ParcialADA.git>
+   cd <ParcialADA>
    ```
 
 2. **Preparar el entorno:**
