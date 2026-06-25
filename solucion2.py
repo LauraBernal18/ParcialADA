@@ -14,14 +14,40 @@ import sys
 #
 
 def insertionSort(arr):
-    shifts = 0
+    def merge_sort_count(arr):
+        if len(arr) <= 1:
+            return arr, 0
 
-    for i in range(len(arr)):
-        for j in range(i + 1, len(arr)):
-            if arr[i] > arr[j]:
-                shifts += 1
+        mid = len(arr) // 2
 
-    return shifts
+        left, left_inv = merge_sort_count(arr[:mid])
+        right, right_inv = merge_sort_count(arr[mid:])
+
+        merged = []
+        i = j = 0
+        split_inv = 0
+
+        while i < len(left) and j < len(right):
+
+            if left[i] <= right[j]:
+                merged.append(left[i])
+                i += 1
+            else:
+                merged.append(right[j])
+                split_inv += len(left) - i
+                j += 1
+
+        merged.extend(left[i:])
+        merged.extend(right[j:])
+
+        total_inv = left_inv + right_inv + split_inv
+
+        return merged, total_inv
+
+    _, inversions = merge_sort_count(arr)
+
+    return inversions
+    
     
 if __name__ == '__main__':
     # Si se ejecuta en local, usa 'resultado.txt' de forma automática

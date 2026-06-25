@@ -51,11 +51,15 @@ Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorn
 
 ## "Insertion Sort Advanced Analysis"
 
-Para este ejercicio se implementó una solución de complejidad O(n²) basada en el conteo directo de inversiones mediante dos ciclos anidados. Esta simplicidad permite comprender de manera clara la relación entre las inversiones del arreglo y los desplazamientos (shifts) realizados por el algoritmo Insertion Sort. Sin embargo, esta solución genera un error de Time Limit Exceeded en algunos casos de prueba. Por esta razón, la solución aceptada en HackerRank utiliza algoritmos más eficientes, como Merge Sort con conteo de inversiones, cuya complejidad es O(n log n) por lo tanto esta solucion solo podra ser implementada en Visual Studio Code, donde se pueden utilizar conjuntos de datos pequeños o medianos sin afectar significativamente el rendimiento.
-
 ### Cómo poner a funcionar el programa
 
-### Ejecución Local en Visual Studio Code (Recomendado)
+#### Opción 1: Ejecución Directa en HackerRank (Recomendado)
+1. Copia el código fuente completo del archivo `solucion.py` de este repositorio.
+2. Ve al problema [Insertion Sort Advanced Analysis](https://hackerrank.com).
+3. Selecciona **Python 3** como lenguaje en el editor de HackerRank.
+4. Pega el código y presiona el botón **"Submit Code"**. Pasará todos los casos de prueba inmediatamente.
+
+### Opcion 2: Ejecución Local en Visual Studio Code (Recomendado)
 
 Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorno gráfico:
 
