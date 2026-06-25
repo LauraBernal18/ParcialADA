@@ -12,7 +12,8 @@ Existen dos formas de ejecutar y probar este código:
 1. Copia el código fuente completo del archivo `solucion.py` de este repositorio.
 2. Ve al problema [Big Sorting en HackerRank](https://hackerrank.com).
 3. Selecciona **Python 3** como lenguaje en el editor de HackerRank.
-4. Pega el código y presiona el botón **"Submit Code"**. Pasará todos los casos de prueba inmediatamente.
+4. Pega el código (quitando las líneas de comentarios # Si se ejecuta en local, usa 'resultado.txt' de forma automática y la línea de resultado  print(f"\n¡Proceso terminado con éxito! El resultado se guardó en: {output_path}", ya que estas líneas HackerRank las considera caracteres fuera del conjunto ASCII)
+5. Presiona el botón **"Submit Code"**. Pasará todos los casos de prueba inmediatamente.
 
 #### Opción 2: Ejecución Local en Visual Studio Code (Recomendado)
 
@@ -56,10 +57,11 @@ https://drive.google.com/file/d/1XRpTCHnjJ3hCfHf4f2qlpV9uq8brRjIi/view?usp=shari
 ### Cómo poner a funcionar el programa
 
 #### Opción 1: Ejecución Directa en HackerRank (Recomendado)
-1. Copia el código fuente completo del archivo `solucion.py` de este repositorio.
+1. Copia el código fuente completo del archivo `solucion2.py` de este repositorio.
 2. Ve al problema [Insertion Sort Advanced Analysis](https://hackerrank.com).
 3. Selecciona **Python 3** como lenguaje en el editor de HackerRank.
-4. Pega el código y presiona el botón **"Submit Code"**. Pasará todos los casos de prueba inmediatamente.
+4. Pega el código (quitando las líneas de comentarios # Si se ejecuta en local, usa 'resultado.txt' de forma automática y la línea de resultado  print(f"\n¡Proceso terminado con éxito! El resultado se guardó en: {output_path}", ya que estas líneas HackerRank las considera caracteres fuera del conjunto ASCII)
+5. Presiona el botón **"Submit Code"**. Pasará todos los casos de prueba inmediatamente.
 
 ### Opcion 2: Ejecución Local en Visual Studio Code (Recomendado)
 
