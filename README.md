@@ -3,6 +3,7 @@
 Este repositorio contiene la solución en Python para el problema **"Big Sorting"** y **"Insertion Sort Advanced Analysis"** de HackerRank, correspondiente a la sección del parcial práctico.
 
 ## Big Sorting
+Este programa ordena una lista de números enteros extremadamente grandes que no pueden manejarse eficientemente con conversiones numéricas tradicionales.
 
 ### Cómo poner a funcionar el programa
 
@@ -15,7 +16,7 @@ Existen dos formas de ejecutar y probar este código:
 4. Pega el código (quitando las líneas de comentarios # Si se ejecuta en local, usa 'resultado.txt' de forma automática y la línea de resultado  print(f"\n¡Proceso terminado con éxito! El resultado se guardó en: {output_path}", ya que estas líneas HackerRank las considera caracteres fuera del conjunto ASCII)
 5. Presiona el botón **"Submit Code"**. Pasará todos los casos de prueba inmediatamente.
 
-#### Opción 2: Ejecución Local en Visual Studio Code (Recomendado)
+#### Opción 2: Ejecución Local en Visual Studio Code 
 
 Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorno gráfico:
 
@@ -51,7 +52,8 @@ Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorn
    * Automáticamente aparecerá un nuevo archivo llamado `resultado.txt` en tu explorador de VS Code con la lista de números perfectamente ordenada.
 
 ## "Insertion Sort Advanced Analysis"
-VIDEO
+Este programa calcula la cantidad de desplazamientos (inversiones) que realizaría el algoritmo Insertion Sort utilizando una solución eficiente basada en Merge Sort.
+Video explicativo:
 https://drive.google.com/file/d/1XRpTCHnjJ3hCfHf4f2qlpV9uq8brRjIi/view?usp=sharing
 
 ### Cómo poner a funcionar el programa
@@ -63,7 +65,7 @@ https://drive.google.com/file/d/1XRpTCHnjJ3hCfHf4f2qlpV9uq8brRjIi/view?usp=shari
 4. Pega el código (quitando las líneas de comentarios # Si se ejecuta en local, usa 'resultado.txt' de forma automática y la línea de resultado  print(f"\n¡Proceso terminado con éxito! El resultado se guardó en: {output_path}", ya que estas líneas HackerRank las considera caracteres fuera del conjunto ASCII)
 5. Presiona el botón **"Submit Code"**. Pasará todos los casos de prueba inmediatamente.
 
-### Opcion 2: Ejecución Local en Visual Studio Code (Recomendado)
+### Opcion 2: Ejecución Local en Visual Studio Code 
 
 Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorno gráfico:
 
@@ -94,4 +96,4 @@ Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorn
    
 5. **Verificar el resultado:**
    * Verás un mensaje de éxito en la terminal confirmando que el programa terminó.
-   * Automáticamente aparecerá un nuevo archivo llamado `resultado2.txt` en tu explorador de VS Code con la lista de números perfectamente ordenada.
+   * Automáticamente aparecerá un nuevo archivo llamado `resultado2.txt` en tu explorador de VS Code con el número de inversiones calculado para cada caso de prueba.
