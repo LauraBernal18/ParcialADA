@@ -52,9 +52,6 @@ Sigue estos pasos para clonar el proyecto y ejecutarlo directamente en tu entorn
    * Automáticamente aparecerá un nuevo archivo llamado `resultado.txt` en tu explorador de VS Code con la lista de números perfectamente ordenada.
 
 ## "Insertion Sort Advanced Analysis"
-Este programa calcula la cantidad de desplazamientos (inversiones) que realizaría el algoritmo Insertion Sort utilizando una solución eficiente basada en Merge Sort.
-Video explicativo:
-https://drive.google.com/file/d/1XRpTCHnjJ3hCfHf4f2qlpV9uq8brRjIi/view?usp=sharing
 
 ### Cómo poner a funcionar el programa
 
